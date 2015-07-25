@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:orientation="vertical"
-    android:background="@color/dark_grey">
+    android:orientation="vertical">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="48dp">
+        android:layout_height="48dp"
+        android:background="@color/dark_grey">
 
         <view
             android:layout_width="10dp"
@@ -28,7 +28,7 @@
             android:text="Reminder Text"
             android:id="@+id/row_text"
             android:textSize="18sp"
-            android:background="@color/white" />
+            android:textColor="@color/white" />
     </LinearLayout>
     <view
         class="android.view.View"
